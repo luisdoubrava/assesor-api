@@ -53,6 +53,10 @@ GEM
     devise_token_auth (0.1.43.beta1)
       devise (> 3.5.2, < 4.4)
       rails (< 6)
+    dotenv (2.2.1)
+    dotenv-rails (2.2.1)
+      dotenv (= 2.2.1)
+      railties (>= 3.2, < 5.2)
     erubi (1.7.0)
     faraday (0.12.2)
       multipart-post (>= 1.2, < 3)
@@ -168,6 +172,7 @@ DEPENDENCIES
   bundler
   byebug
   devise_token_auth (= 0.1.43.beta1)
+  dotenv-rails
   graphiql-rails
   graphql
   listen (>= 3.0.5, < 3.2)
@@ -178,6 +183,9 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
+
+RUBY VERSION
+   ruby 2.3.4p301
 
 BUNDLED WITH
    1.16.0
