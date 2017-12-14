@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Language.create({iso: :nl, name: 'Dutch'})
+Language.create({iso: :fr, name: 'French'})
+Language.create({iso: :en, name: 'English'})
