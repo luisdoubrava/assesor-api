@@ -22,7 +22,7 @@ gem "graphql"
 gem "graphiql-rails"
 
 gem 'devise_token_auth', '0.1.43.beta1'
-gem 'omniauth-google-oauth2'
+gem 'omniauth'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -37,9 +37,11 @@ gem 'omniauth-google-oauth2'
 # gem 'rack-cors'
 
 group :development, :test do
+  gem 'rspec-rails'
   gem 'dotenv-rails'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rubocop'
 end
 
 group :development do
